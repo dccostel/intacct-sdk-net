@@ -180,6 +180,7 @@ namespace Intacct.SDK.Tests.Functions.OrderEntry
         </customfields>
         <state>Pending</state>
         <projectid>P2904</projectid>
+        <customerponumber>1234567</customerponumber>
         <sotransitems>
             <sotransitem>
                 <itemid>2390552</itemid>
@@ -220,6 +221,7 @@ namespace Intacct.SDK.Tests.Functions.OrderEntry
                 VsoePriceList = "VSOEPricing",
                 State = "Pending",
                 ProjectId = "P2904",
+                CustomerPoNumber = "1234567",
                 CustomFields = new Dictionary<string, dynamic>
                 {
                     { "customfield1", "customvalue1" }

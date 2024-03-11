@@ -116,6 +116,8 @@ namespace Intacct.SDK.Functions.OrderEntry
             xml.WriteElement("state", State);
             xml.WriteElement("projectid", ProjectId);
 
+            xml.WriteElement("customerponumber", CustomerPoNumber);
+
             xml.WriteStartElement("sotransitems");
             if (Lines.Count > 0)
             {

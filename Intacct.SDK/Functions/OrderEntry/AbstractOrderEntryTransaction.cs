@@ -40,6 +40,8 @@ namespace Intacct.SDK.Functions.OrderEntry
 
         public string ReferenceNumber;
 
+        public string CustomerPoNumber;
+
         public string PaymentTerm;
 
         public DateTime? DueDate;
